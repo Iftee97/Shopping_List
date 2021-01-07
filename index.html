@@ -6,9 +6,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
     <title>Shopping List</title>
 
     <style>
+        body {
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        h1 {
+            font-size: 5em;
+        }
+
+        p {
+            font-size: 2.5em;
+        }
+
         .done {
             text-decoration: line-through;
         }
@@ -17,7 +33,7 @@
 
 <body>
     <h1>Shoppping List</h1>
-    <p id="first"><b>Get it done today</b></p>
+    <p id="first"><b>Get it done today!</b></p>
     <input type="text" id="userinput" placeholder="enter items:">
     <button id="enter">Enter</button>
     <ul>
